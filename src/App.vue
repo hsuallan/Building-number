@@ -56,7 +56,7 @@ ul{
   background-image: url("./assets/logo.png");
 }
 .dist{
-  font-size : 3em;
+  font-size : 3.5em;
   color:white;
 }
 .splogo{
@@ -69,7 +69,8 @@ ul{
 .rd{
   font-size: 3.5em;
   color:white;
-  font:italic;
+  font-style: italic;
+  text-align: center;
 }
 .other{
   background: #fff;
@@ -79,20 +80,26 @@ ul{
   width: 400px;
   margin-bottom: 30px;
   text-align: center;
+  line-height: 1;
 }
 .rd2{
   font-size: 3.0em;
+  display:flex;
+  justify-content:center;
 }
 .no{
-  font-size: 8em;
-  display: inline-block;
+  font-size: 14em;
+  display: inline-flex;
+  align-items: flex-start;
 }
 .small{
   font-size: 2em;
-  display: inline-block;
+  display: inline-flex;
+  margin-right: 20px;
 }
 .no2{
-  font-size: 3.5em;
-  display: inline-block;
+  font-size: 5em;
+  letter-spacing: 20px;
+  display: inline-flex;
 }
 </style>
